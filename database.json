@@ -1,0 +1,349 @@
+{
+  "stats": {
+    "totalApplications": 0,
+    "pendingInspections": 0,
+    "pendingDebris": 0,
+    "completedCollections": 0,
+    "activeOfficers": 3,
+    "totalTonnageCollected": "0 MT",
+    "recyclingEfficiency": "100%"
+  },
+  "hotspots": [],
+  "applications": [],
+  "pinMappings": [
+    {
+      "pin": "570001",
+      "ward": "Ward 14 (Devaraja)",
+      "area": "Palace Core / City Center",
+      "streets": "Sayyaji Rao Rd, Ashoka Rd, Irwin Rd",
+      "mapLocation": "12.3051° N, 76.6551° E",
+      "authority": "Mysuru Municipal Corporation (MCC)",
+      "officer": "MCC Admin"
+    },
+    {
+      "pin": "570002",
+      "ward": "Ward 18 (Gokulam)",
+      "area": "Gokulam & Vontikoppal",
+      "streets": "Contour Rd, Temple Rd, 3rd Stage",
+      "mapLocation": "12.3271° N, 76.6264° E",
+      "authority": "Mysuru Municipal Corporation (MCC)",
+      "officer": "MCC Admin"
+    },
+    {
+      "pin": "570026",
+      "ward": "GP Ward 1-4",
+      "area": "Bogadi Peripheral & Ring Road",
+      "streets": "Bogadi Main Rd, Gadhinglaj Cross",
+      "mapLocation": "12.3021° N, 76.5912° E",
+      "authority": "Bogadi Gram Panchayat",
+      "officer": "Panchayat Admin"
+    },
+    {
+      "pin": "570018",
+      "ward": "TP Ward 1-8",
+      "area": "Hootagalli Industrial Belt",
+      "streets": "KIADB Belagola Cross, Ring Rd Exit",
+      "mapLocation": "12.3489° N, 76.5744° E",
+      "authority": "Hootagalli Town Panchayat",
+      "officer": "Town Panchayat Admin"
+    }
+  ],
+  "authorities": [
+    {
+      "name": "Mysuru Municipal Corporation (MCC)",
+      "department": "C&D Waste Enforcement Cell",
+      "areaWard": "65 Urban Wards / 9 Zones",
+      "contactDetails": "mcc@gmail.com · 0821-2440890",
+      "address": "MCC Head Office, Sayyaji Rao Rd, Mysuru"
+    },
+    {
+      "name": "Bogadi Gram Panchayat",
+      "department": "Rural Sanitation & Debris Clearance",
+      "areaWard": "Bogadi, Maratikyathanahalli",
+      "contactDetails": "gp@gmail.com · 0821-2598711",
+      "address": "GP Bhavan, Bogadi Village"
+    },
+    {
+      "name": "Hootagalli Town Panchayat",
+      "department": "Suburban Civic & Demolition Desk",
+      "areaWard": "Hootagalli CMC & Industrial Zone",
+      "contactDetails": "tp@gmail.com · 0821-2402122",
+      "address": "Town Council Office, Hootagalli"
+    }
+  ],
+  "inspectors": [],
+  "inspections": [],
+  "demolitionRequests": [],
+  "demolitionStatus": [],
+  "certificates": [],
+  "utilities": [],
+  "notifications": [],
+  "reports": {
+    "monthlyTrend": [],
+    "authorityBreakdown": []
+  },
+  "users": [],
+  "settings": {
+    "autoRoutingEnabled": true,
+    "slaHoursThreshold": 4,
+    "defaultDestinationFacility": "Kumbarakoppal ZWM C&D Plant",
+    "smsGateway": "Active (Govt of Karnataka SMS Portal)",
+    "effectiveJurisdictionShiftMode": "Dynamic Timestamp Rule"
+  },
+  "registeredUsers": [
+    {
+      "id": "INS-MCC-183",
+      "name": "Gargieee",
+      "email": "gat@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 11099",
+      "role": "inspector",
+      "department": "mcc",
+      "departmentName": "Mysuru City Corporation (MCC Urban)",
+      "assignedPin": "501301",
+      "assignedArea": "Ward 14 (Palace & City Zone)",
+      "designation": "Ward Health Inspector",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "BOGP1001",
+      "name": "Seervi",
+      "email": "q@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 11002",
+      "role": "inspector",
+      "department": "gp",
+      "departmentName": "Bogadi Gram Panchayat",
+      "assignedPin": "570026",
+      "assignedArea": "GP Ward 01 (Bogadi Rural & Ring Road)",
+      "designation": "Panchayat Health Inspector",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "BOGP1002",
+      "name": "Dimple",
+      "email": "dim@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 22003",
+      "role": "inspector",
+      "department": "gp",
+      "departmentName": "Bogadi Gram Panchayat",
+      "assignedPin": "570028",
+      "assignedArea": "GP Ward 02 (Maratikyathanahalli Village)",
+      "designation": "Village Sanitary Inspector",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "HTMC1001",
+      "name": "M. Anand",
+      "email": "anand.tp@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 11003",
+      "role": "inspector",
+      "department": "tp",
+      "departmentName": "Hootagalli Town Panchayat",
+      "assignedPin": "570018",
+      "assignedArea": "TP Ward 01 (Hootagalli Town & Industrial)",
+      "designation": "Town Municipal Inspector",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "MCCU1001",
+      "name": "Rajesh Kumar",
+      "email": "inspector.mcc@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 11001",
+      "role": "inspector",
+      "department": "mcc",
+      "departmentName": "Mysuru City Corporation (MCC Urban)",
+      "assignedPin": "570001",
+      "assignedArea": "MCC Central & Urban Core",
+      "designation": "Ward Health Inspector",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "OFF-MCC-01",
+      "name": "Dr. N. Chandrashekar, IAS",
+      "email": "officer.mcc@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 11000",
+      "role": "officer",
+      "department": "mcc",
+      "designation": "Municipal Commissioner",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "OFF-GP-01",
+      "name": "K. S. Manjunath",
+      "email": "gp@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 22000",
+      "role": "officer",
+      "department": "gp",
+      "designation": "Panchayat Development Officer",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "OFF-TP-01",
+      "name": "S. Ramesh",
+      "email": "tp@gmail.com",
+      "password": "123",
+      "passwords": [
+        "123",
+        "123456"
+      ],
+      "phone": "+91 98450 33000",
+      "role": "officer",
+      "department": "tp",
+      "designation": "Chief Officer / Zonal Superintendent",
+      "status": "Active (On Duty)"
+    },
+    {
+      "id": "u_TP_CO_308",
+      "name": "Town Panchayat Chief Officer",
+      "email": "tpp@gmail.com",
+      "phone": "+91 98450 00004",
+      "password": "123456",
+      "role": "officer",
+      "department": "Town Panchayat (Hootagalli Town)",
+      "departmentName": "Town Panchayat (Hootagalli Town)",
+      "authority": "Town Panchayat Admin",
+      "assignedPin": "570018, 571607, 570016",
+      "assignedArea": "",
+      "designation": "Chief Officer / Zonal Superintendent",
+      "createdBy": "",
+      "status": "Active",
+      "createdAt": "2026-10-08T10:10:51.200Z"
+    },
+    {
+      "id": "BOGP2904",
+      "name": "gargie",
+      "email": "re@gmail.com",
+      "phone": "7412589630",
+      "password": "123456",
+      "role": "inspector",
+      "department": "gp",
+      "departmentName": "Bogadi Gram Panchayat (Rural)",
+      "authority": "Bogadi Gram Panchayat (Rural) Inspector (PIN: 123123)",
+      "assignedPin": "123123",
+      "assignedArea": "wsww",
+      "designation": "na",
+      "createdBy": "K. S. Manjunath (gp@gmail.com)",
+      "status": "Active",
+      "createdAt": "2026-10-08T10:11:42.009Z"
+    },
+    {
+      "id": "u_1791454380807",
+      "name": "asdfgh",
+      "email": "po@gmail.com",
+      "phone": "7412589630",
+      "password": "123456",
+      "role": "citizen",
+      "department": "",
+      "departmentName": "",
+      "authority": "Customer",
+      "assignedPin": "",
+      "assignedArea": "",
+      "designation": "Citizen",
+      "createdBy": "",
+      "status": "Active",
+      "createdAt": "2026-10-08T10:13:00.821Z"
+    },
+    {
+      "id": "u_1791454954491",
+      "name": "nm",
+      "email": "1234@mymail.com",
+      "phone": "776063",
+      "password": "123456",
+      "role": "citizen",
+      "department": "",
+      "departmentName": "",
+      "authority": "Customer",
+      "assignedPin": "",
+      "assignedArea": "",
+      "designation": "Citizen",
+      "createdBy": "",
+      "status": "Active",
+      "createdAt": "2026-10-08T10:22:35.370Z"
+    },
+    {
+      "id": "u_TP_CO_308",
+      "name": "Town Panchayat Chief Officer",
+      "email": "tppp@gmail.com",
+      "phone": "+91 98450 00004",
+      "password": "123456",
+      "role": "officer",
+      "department": "Town Panchayat (Hootagalli Town)",
+      "departmentName": "Town Panchayat (Hootagalli Town)",
+      "authority": "Town Panchayat Admin",
+      "assignedPin": "570018, 571607, 570016",
+      "assignedArea": "",
+      "designation": "Chief Officer / Zonal Superintendent",
+      "createdBy": "",
+      "status": "Active",
+      "createdAt": "2026-10-19T07:21:16.704Z"
+    },
+    {
+      "id": "BOGP6916",
+      "name": "de",
+      "email": "qaz@gmail.com",
+      "phone": "7412589630",
+      "password": "123456",
+      "role": "inspector",
+      "department": "gp",
+      "departmentName": "Bogadi Gram Panchayat (Rural)",
+      "authority": "Bogadi Gram Panchayat (Rural) Inspector (PIN: 567567)",
+      "assignedPin": "567567",
+      "assignedArea": "wsww",
+      "designation": "na",
+      "createdBy": "K. S. Manjunath (gp@gmail.com)",
+      "status": "Active",
+      "createdAt": "2026-10-19T07:22:27.938Z"
+    },
+    {
+      "id": "GP-9060",
+      "name": "hi",
+      "email": "qa@gmail.com",
+      "phone": "123456",
+      "password": "123456",
+      "role": "inspector",
+      "department": "gp",
+      "departmentName": "Gram Panchayat (Bogadi Rural)",
+      "authority": "Gram Panchayat (Bogadi Rural) Inspector (PIN: 570026)",
+      "assignedPin": "570026",
+      "assignedArea": "GP Ward 01 (Bogadi Rural & Ring Road)",
+      "designation": "Panchayat Health Inspector",
+      "createdBy": "",
+      "status": "Active",
+      "createdAt": "2026-10-19T07:23:28.412Z"
+    }
+  ]
+}
